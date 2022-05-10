@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://kangduu.github.io/website/websitesitemap.xml
+Sitemap: https://kangduu.github.io/website/website/sitemap.xml
