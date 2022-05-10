@@ -2,7 +2,7 @@ import hope from "vuepress-theme-hope";
 
 export default hope.config({
   /** 部署站点的基础路径 */
-  base: "/",
+  base: "/website",
 
   title: "大眼猫看前端",
   description: "HTML、CSS、JavaScript、TypeScript、React、Vue...",
