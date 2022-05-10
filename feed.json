@@ -1,8 +1,8 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "大眼猫看前端",
-  "home_page_url": "https://kangduu.github.io/website/",
-  "feed_url": "https://kangduu.github.io/website/feed.json",
+  "home_page_url": "https://kangduu.github.io/website/website/",
+  "feed_url": "https://kangduu.github.io/website/website/feed.json",
   "description": "HTML、CSS、JavaScript、TypeScript、React、Vue...",
   "author": {
     "name": "大眼猫"
@@ -10,8 +10,8 @@
   "items": [
     {
       "title": "React 系列文章",
-      "url": "https://kangduu.github.io/website/case/",
-      "id": "https://kangduu.github.io/website/case/",
+      "url": "https://kangduu.github.io/website/website/case/",
+      "id": "https://kangduu.github.io/website/website/case/",
       "content_html": "<h1 id=\"react-系列文章\"> React 系列文章</h1>\n",
       "date_published": "2022-05-05T10:01:30.000Z",
       "date_modified": "2022-05-05T10:01:30.000Z",
@@ -24,8 +24,8 @@
     },
     {
       "title": "React 系列文章",
-      "url": "https://kangduu.github.io/website/interview/",
-      "id": "https://kangduu.github.io/website/interview/",
+      "url": "https://kangduu.github.io/website/website/interview/",
+      "id": "https://kangduu.github.io/website/website/interview/",
       "content_html": "<h1 id=\"react-系列文章\"> React 系列文章</h1>\n",
       "date_published": "2022-05-05T10:01:30.000Z",
       "date_modified": "2022-05-05T10:01:30.000Z",
@@ -38,8 +38,8 @@
     },
     {
       "title": "JavaScript",
-      "url": "https://kangduu.github.io/website/javascript/",
-      "id": "https://kangduu.github.io/website/javascript/",
+      "url": "https://kangduu.github.io/website/website/javascript/",
+      "id": "https://kangduu.github.io/website/website/javascript/",
       "content_html": "<h3 id=\"javascript\"> JavaScript</h3>\n<h3 id=\"javascript1\"> JavaScript1</h3>\n<h3 id=\"javascript2\"> JavaScript2</h3>\n<h3 id=\"javascript3\"> JavaScript3</h3>\n",
       "date_published": "2022-05-05T10:01:30.000Z",
       "date_modified": "2022-05-05T10:01:30.000Z",
@@ -52,8 +52,8 @@
     },
     {
       "title": "深入浅出 React 系列",
-      "url": "https://kangduu.github.io/website/react/",
-      "id": "https://kangduu.github.io/website/react/",
+      "url": "https://kangduu.github.io/website/website/react/",
+      "id": "https://kangduu.github.io/website/website/react/",
       "summary": "用于构建用户界面的 JavaScript 库",
       "content_html": "<p><div><ul><li></li><li></li></ul></div></p>\n<div><p>提示</p>\n<p>这是一个提示</p>\n</div>\n<div><p>注意</p>\n<p>这是一个警告</p>\n</div>\n<div><p>警告</p>\n<p>这是一个危险警告</p>\n</div>\n<details><summary>DETAILS</summary>\n<p>这是一个详情块，在 Internet Explorer / Edge 中不生效</p>\n</details>\n<h3 id=\"react-组件模式\"> React 组件模式</h3>\n<h3 id=\"阅读角\"> 阅读角</h3>\n<ul>\n<li><a href=\"https://overreacted.io/\" target=\"_blank\" rel=\"noopener noreferrer\">overreacted</a></li>\n<li><a href=\"https://www.30secondsofcode.org/react/p/1\" target=\"_blank\" rel=\"noopener noreferrer\">30 seconds of code with react</a></li>\n<li><a href=\"https://ahooks.js.org/zh-CN\" target=\"_blank\" rel=\"noopener noreferrer\">ahooks</a></li>\n</ul>\n",
       "date_published": "2022-05-05T10:01:30.000Z",
@@ -69,8 +69,8 @@
     },
     {
       "title": "首页",
-      "url": "https://kangduu.github.io/website/",
-      "id": "https://kangduu.github.io/website/",
+      "url": "https://kangduu.github.io/website/website/",
+      "id": "https://kangduu.github.io/website/website/",
       "content_html": "",
       "date_published": "2022-04-29T09:54:32.000Z",
       "date_modified": "2022-05-05T10:01:30.000Z",
@@ -83,8 +83,8 @@
     },
     {
       "title": "TypeScript Syntax",
-      "url": "https://kangduu.github.io/website/typescript/",
-      "id": "https://kangduu.github.io/website/typescript/",
+      "url": "https://kangduu.github.io/website/website/typescript/",
+      "id": "https://kangduu.github.io/website/website/typescript/",
       "summary": "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
       "content_html": "<h1 id=\"阅读角\"> 阅读角</h1>\n<ul>\n<li><a href=\"https://ts.yayujs.com/\" target=\"_blank\" rel=\"noopener noreferrer\">TypeScript-yy</a></li>\n</ul>\n",
       "date_published": "2022-05-05T10:01:30.000Z",

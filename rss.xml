@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <atom:link href="https://kangduu.github.io/website/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://kangduu.github.io/website/website/rss.xml" rel="self" type="application/rss+xml"/>
     <title>大眼猫看前端</title>
-    <link>https://kangduu.github.io/website/</link>
+    <link>https://kangduu.github.io/website/website/</link>
     <description>HTML、CSS、JavaScript、TypeScript、React、Vue...</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 10 May 2022 15:39:40 GMT</pubDate>
-    <lastBuildDate>Tue, 10 May 2022 15:39:40 GMT</lastBuildDate>
+    <pubDate>Tue, 10 May 2022 15:49:51 GMT</pubDate>
+    <lastBuildDate>Tue, 10 May 2022 15:49:51 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>React</category>
     <item>
       <title>React 系列文章</title>
-      <link>https://kangduu.github.io/website/case/</link>
-      <guid>https://kangduu.github.io/website/case/</guid>
-      <source url="https://kangduu.github.io/website/rss.xml">React 系列文章</source>
+      <link>https://kangduu.github.io/website/website/case/</link>
+      <guid>https://kangduu.github.io/website/website/case/</guid>
+      <source url="https://kangduu.github.io/website/website/rss.xml">React 系列文章</source>
       <pubDate>Thu, 05 May 2022 10:01:30 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="react-系列文章"> React 系列文章</h1>
 ]]></content:encoded>
     </item>
     <item>
       <title>React 系列文章</title>
-      <link>https://kangduu.github.io/website/interview/</link>
-      <guid>https://kangduu.github.io/website/interview/</guid>
-      <source url="https://kangduu.github.io/website/rss.xml">React 系列文章</source>
+      <link>https://kangduu.github.io/website/website/interview/</link>
+      <guid>https://kangduu.github.io/website/website/interview/</guid>
+      <source url="https://kangduu.github.io/website/website/rss.xml">React 系列文章</source>
       <pubDate>Thu, 05 May 2022 10:01:30 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="react-系列文章"> React 系列文章</h1>
 ]]></content:encoded>
     </item>
     <item>
       <title>JavaScript</title>
-      <link>https://kangduu.github.io/website/javascript/</link>
-      <guid>https://kangduu.github.io/website/javascript/</guid>
-      <source url="https://kangduu.github.io/website/rss.xml">JavaScript</source>
+      <link>https://kangduu.github.io/website/website/javascript/</link>
+      <guid>https://kangduu.github.io/website/website/javascript/</guid>
+      <source url="https://kangduu.github.io/website/website/rss.xml">JavaScript</source>
       <pubDate>Thu, 05 May 2022 10:01:30 GMT</pubDate>
       <content:encoded><![CDATA[<h3 id="javascript"> JavaScript</h3>
 <h3 id="javascript1"> JavaScript1</h3>
@@ -43,9 +43,9 @@
     </item>
     <item>
       <title>深入浅出 React 系列</title>
-      <link>https://kangduu.github.io/website/react/</link>
-      <guid>https://kangduu.github.io/website/react/</guid>
-      <source url="https://kangduu.github.io/website/rss.xml">深入浅出 React 系列</source>
+      <link>https://kangduu.github.io/website/website/react/</link>
+      <guid>https://kangduu.github.io/website/website/react/</guid>
+      <source url="https://kangduu.github.io/website/website/rss.xml">深入浅出 React 系列</source>
       <description>用于构建用户界面的 JavaScript 库</description>
       <category>React</category>
       <pubDate>Thu, 05 May 2022 10:01:30 GMT</pubDate>
@@ -73,16 +73,16 @@
     </item>
     <item>
       <title>首页</title>
-      <link>https://kangduu.github.io/website/</link>
-      <guid>https://kangduu.github.io/website/</guid>
-      <source url="https://kangduu.github.io/website/rss.xml">首页</source>
+      <link>https://kangduu.github.io/website/website/</link>
+      <guid>https://kangduu.github.io/website/website/</guid>
+      <source url="https://kangduu.github.io/website/website/rss.xml">首页</source>
       <pubDate>Fri, 29 Apr 2022 09:54:32 GMT</pubDate>
     </item>
     <item>
       <title>TypeScript Syntax</title>
-      <link>https://kangduu.github.io/website/typescript/</link>
-      <guid>https://kangduu.github.io/website/typescript/</guid>
-      <source url="https://kangduu.github.io/website/rss.xml">TypeScript Syntax</source>
+      <link>https://kangduu.github.io/website/website/typescript/</link>
+      <guid>https://kangduu.github.io/website/website/typescript/</guid>
+      <source url="https://kangduu.github.io/website/website/rss.xml">TypeScript Syntax</source>
       <description>TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.</description>
       <category>React</category>
       <pubDate>Thu, 05 May 2022 10:01:30 GMT</pubDate>
