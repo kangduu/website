@@ -1,109 +1,61 @@
 import hope from "vuepress-theme-hope";
 
 export default hope.config({
-  title: "大眼猫看前端👁‍🗨",
-  description: "JavaScript、TypeScript、React、Vue、HTML、CSS",
+  /** 部署站点的基础路径 */
+  base: "/",
 
+  title: "大眼猫看前端",
+  description: "HTML、CSS、JavaScript、TypeScript、React、Vue...",
+
+  /** 指定 vuepress build 的输出目录 */
   dest: "./dist",
+
+  /** 深色模式支持选项 */
+  darkmode: "auto",
 
   locales: {
     "/": {
-      lang: "en-US",
-    },
-    "/zh/": {
-      title: "Theme Demo",
-      description: "vuepress-theme-hope 的 demo",
+      lang: "zh-CN",
     },
   },
 
   themeConfig: {
-    logo: "/logo.svg",
-    hostname: "https://vuepress-theme-hope-demo.mrhope.site",
+    author: "大眼猫",
+    logo: "/logo.png",
+    /** 站点地址 */
+    hostname: "https://kangduu.github.io/website",
+    repo: "https://github.com/kangduu",
 
-    author: "Mr.Hope",
-    repo: "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
+    repoDisplay: false,
+    editLinks: false,
 
     nav: [
-      { text: "Blog Home", link: "/", icon: "home" },
-      { text: "Project Home", link: "/home/", icon: "home" },
-      {
-        text: "Guide",
-        icon: "creative",
-        link: "/guide/",
-      },
-      {
-        text: "Docs",
-        link: "https://vuepress-theme-hope.github.io/v1/",
-        icon: "note",
-      },
+      { text: "Home·首页", link: "/", icon: "home" },
+      { text: "React·深入浅出", link: "/react/", icon: "react" },
+      { text: "JavaScript·进阶", link: "/javascript/", icon: "javascript" },
+      { text: "案例·示范", link: "/case/", icon: "template" },
+      { text: "面试·题库", link: "/interview/", icon: "read" },
     ],
 
-    sidebar: {
-      "/": [
-        "",
-        "home",
-        "slides",
-        "layout",
-        {
-          title: "Guide",
-          icon: "creative",
-          prefix: "guide/",
-          children: ["", "page", "markdown", "disable", "encrypt"],
-        },
-      ],
-    },
-
-    locales: {
-      "/zh/": {
-        nav: [
-          { text: "博客主页", link: "/zh/", icon: "home" },
-          { text: "项目主页", link: "/zh/home/", icon: "home" },
-          {
-            text: "如何使用",
-            icon: "creative",
-            link: "/zh/guide/",
-          },
-          {
-            text: "主题文档",
-            icon: "note",
-            link: "https://vuepress-theme-hope.github.io/v1/zh/",
-          },
-        ],
-        sidebar: {
-          "/zh/": [
-            "",
-            "home",
-            "slides",
-            "layout",
-            {
-              title: "如何使用",
-              icon: "creative",
-              prefix: "guide/",
-              children: ["", "page", "markdown", "disable", "encrypt"],
-            },
-          ],
-        },
-      },
-    },
-
     blog: {
-      intro: "/intro/",
-      sidebarDisplay: "mobile",
+      name: "大眼猫",
+      avatar: "/profile.jpg",
+      // intro: "/intro/",
+      sidebarDisplay: "always",
       links: {
-        Zhihu: "https://zhihu.com",
-        Baidu: "https://baidu.com",
+        // Zhihu: "https://zhihu.com",
+        // Baidu: "https://baidu.com",
         Github: "https://github.com",
       },
     },
 
-    footer: {
-      display: true,
-      content: "默认页脚",
+    encrypt: {
+      global: "950918",
     },
 
-    comment: {
-      type: "waline",
-      serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+    footer: {
+      display: true,
+      content: "人世间最远的距离 —— 知道、做到",
     },
 
     copyright: {
@@ -111,10 +63,6 @@ export default hope.config({
     },
 
     cleanUrl: false,
-
-    git: {
-      timezone: "Asia/Shanghai",
-    },
 
     mdEnhance: {
       enableAll: true,

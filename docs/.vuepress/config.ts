@@ -1,12 +1,12 @@
 import { defaultTheme, defineUserConfig } from "vuepress";
-import themeHope from "vuepress-theme-hope";
+import * as hopeTheme from "vuepress-theme-hope";
 
 export default defineUserConfig({
   // lang: "zh-CN",
   title: "大眼猫看前端",
   description: "JavaScript、TypeScript、React、Vue、HTML、CSS",
   head: [["link", { rel: "icon", href: "/logo.png" }]],
-  theme: defaultTheme({
+  theme: hopeTheme({
     home: "/",
     navbar: [
       {
