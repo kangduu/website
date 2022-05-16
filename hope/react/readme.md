@@ -14,7 +14,9 @@ next: false
 comment: false
 ---
 
-[[toc]]
+<GithubIssueList />
+
+<!-- [[toc]] -->
 
 ::: tip
 
