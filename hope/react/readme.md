@@ -14,7 +14,7 @@ next: false
 comment: false
 ---
 
-[[toc]]
+<!-- [[toc]] -->
 
 ::: tip
 
