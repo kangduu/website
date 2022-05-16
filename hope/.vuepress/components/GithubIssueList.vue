@@ -1,17 +1,14 @@
 <template>
-  <div>
-    <h3>Github Issue !</h3>
-    <ul>
-      <li v-for="item in items" :key="item.id">
-        <a
-          v-bind:href="item.html_url"
-          target="_blank"
-          rel="noopener noreferrer"
-          >{{ item.title }}</a
-        >
-      </li>
-    </ul>
-  </div>
+  <ul>
+    <li v-for="item in items" :key="item.id">
+      <a
+        v-bind:href="item.html_url"
+        target="_blank"
+        rel="noopener noreferrer"
+        >{{ item.title }}</a
+      >
+    </li>
+  </ul>
 </template>
 
 <script>

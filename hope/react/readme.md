@@ -14,8 +14,6 @@ next: false
 comment: false
 ---
 
-<GithubIssueList />
-
 <!-- [[toc]] -->
 
 ::: tip

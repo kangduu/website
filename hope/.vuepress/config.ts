@@ -1,8 +1,10 @@
 import hope from "vuepress-theme-hope";
 
+const baseUrl = "/website/";
+
 export default hope.config({
   /** 部署站点的基础路径 */
-  base: "/website/",
+  base: baseUrl,
 
   title: "大眼猫看前端",
   description: "HTML、CSS、JavaScript、TypeScript、React、Vue...",
@@ -29,10 +31,16 @@ export default hope.config({
     repoDisplay: false,
     editLinks: false,
 
+    themeColor: false,
+
     nav: [
       { text: "Home·首页", link: "/", icon: "home" },
-      { text: "React·深入浅出", link: "/react/", icon: "react" },
-      { text: "JavaScript·进阶", link: "/javascript/", icon: "javascript" },
+      {
+        text: "Category·分类",
+        link: "/category/",
+        icon: "categoryselected",
+      },
+      { text: "Tags·标签", link: "/tag/", icon: "tag" },
       { text: "案例·示范", link: "/case/", icon: "template" },
       { text: "面试·题库", link: "/interview/", icon: "read" },
     ],
@@ -44,7 +52,7 @@ export default hope.config({
       sidebarDisplay: "always",
       links: {
         // Zhihu: "https://zhihu.com",
-        // Baidu: "https://baidu.com",
+        Baidu: "https://baidu.com",
         Github: "https://github.com",
       },
     },
@@ -106,12 +114,12 @@ export default hope.config({
           //   type: "image/png",
           // },
           {
-            src: "/512.png",
+            src: baseUrl + "512.png",
             sizes: "512x512",
             type: "image/png",
           },
           {
-            src: "/192.png",
+            src: baseUrl + "192.png",
             sizes: "192x192",
             type: "image/png",
           },
