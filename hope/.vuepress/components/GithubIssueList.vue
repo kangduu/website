@@ -8,6 +8,8 @@
         >{{ item.title }}</a
       >
     </li>
+
+    <div>{{ $page.frontmatter }}</div>
   </ul>
 </template>
 
@@ -31,13 +33,17 @@ export default {
     };
   },
   mounted() {
+    console.log(this);
     this.getIssue();
+    // dynamicly components
+    import("./TodoList").then((res) => {
+      console.log(res);
+    });
   },
   methods: {
     getIssue() {
-      console.log(this.repo);
-      const url = `https://api.github.com/repos/kangduu/${this.repo}/issues`;
-      fetch(url)
+      return;
+      request(`/${this.repo}/issues`)
         .then((response) => response.json())
         .then((res) => {
           console.log(res);
@@ -47,6 +53,8 @@ export default {
             html_url,
           }));
         });
+
+      fetch("https://api.github.com/repos/kangduu/website/labels");
     },
   },
 };
