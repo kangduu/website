@@ -3,7 +3,6 @@ icon: react
 title: 深入浅出 React 系列
 description: 用于构建用户界面的 JavaScript 库
 category: React
-tags: React
 sticky: false
 article: false
 timeline: false

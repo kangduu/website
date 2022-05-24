@@ -1,6 +1,5 @@
 ---
 title: React@18 新特性
-tags: React
 category: React
 ---
 

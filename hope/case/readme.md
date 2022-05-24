@@ -2,7 +2,6 @@
 icon: case
 title: 案例集
 category: case
-tags: case
 sticky: false
 article: false
 timeline: false

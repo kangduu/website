@@ -1,13 +1,8 @@
 ---
-layout: post
+
 title: 复习—Javascript（ES系列、持续更新...）
 subtitle: 总结梳理知识点，温故知新
-date: 2020-03-20
-author: dukang
-header-img: img/smile.jpg
-catalog: true
-tags: 
-    - 复习
+
 ---
 
 ### JS基本数据类型
@@ -57,11 +52,7 @@ tags:
 2. 内部函数可以引用外层的参数和变量
 3. 参数和变量`不会被垃圾回收机制回收`
 
-### Map和Set的区别
-
-
-
-### ES5与ES6继承的区别
+### Map和Set的区别### ES5与ES6继承的区别
 
 - **思路**
 
@@ -111,11 +102,7 @@ tags:
 1. `对this的关联`。内置this的值，取决于箭头函数在哪里定义，而非箭头函数执行的上下文环境。
 2. `new 不可用`。箭头函数不能用new关键字来实例化对象，否则报错。
 3. `this指向不会改变`。函数内置this指向不可改变，this在函数体内整个执行环境中为常量。有利于JavaScript引擎优化处理。
-4. `没有arguments对象`。不能通过arguments对象访问传入的实参。只能使用显示命名或者其它新特性完成。
-
-
-
-###  void
+4. `没有arguments对象`。不能通过arguments对象访问传入的实参。只能使用显示命名或者其它新特性完成。###  void
 
 ```javascript
 console.log(void 0 === undefined) // true

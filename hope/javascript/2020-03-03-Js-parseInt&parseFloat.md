@@ -1,13 +1,7 @@
 ---
-layout: post
+
 title: Javascript的parseInt和parseFloat
 subtitle:parseInt和parseFloat的一些坑
-date: 2020-03-15
-author: dukang
-header-img: img/js.jpg
-catalog: true
-tags: 
-    - Javascript
 ---
 
 # parseInt

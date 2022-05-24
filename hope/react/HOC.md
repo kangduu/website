@@ -1,6 +1,5 @@
 ---
 title: React高阶组件（HOC）
-tags: React
 category: React
 ---
 

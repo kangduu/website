@@ -2,7 +2,6 @@
 icon: book
 title: Frond End Interview
 category: interview
-tags: interview
 sticky: false
 article: false
 timeline: false

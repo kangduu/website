@@ -1,6 +1,5 @@
 ---
 title: 使用memo或PureComponent前的思考
-tags: React
 category: React
 ---
 

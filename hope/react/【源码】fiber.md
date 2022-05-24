@@ -1,6 +1,5 @@
 ---
 title: 你对 react-fiber 有了解吗？
-tags: React
 category: React
 ---
 

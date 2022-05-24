@@ -1,6 +1,5 @@
 ---
 title: Automatic Batching Update
-tags: React
 category: React
 ---
 

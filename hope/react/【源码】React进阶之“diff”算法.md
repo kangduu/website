@@ -1,6 +1,5 @@
 ---
 title: React 进阶之“diff”算法
-tags: React
 category: React
 ---
 

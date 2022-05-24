@@ -3,7 +3,6 @@ icon: typescript
 title: TypeScript Syntax
 description: TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 category: React
-tags: React
 sticky: false
 article: false
 timeline: false
