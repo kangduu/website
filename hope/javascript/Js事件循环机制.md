@@ -1,3 +1,7 @@
+---
+title: 事件循环
+category: javascript
+---
 ## 浏览器环境下JavaScript引擎的事件循环机制
 
 开始学习事件循环之前，让我们先看看下面几个问题。
